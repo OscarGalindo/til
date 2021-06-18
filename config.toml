@@ -1,0 +1,48 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Oscar Galindo TILs"
+
+theme = "devise"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    title = "Posts"
+    url = "/posts/"
+    weight = -100
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[params]
+  description = "Developer"
+  header_title = "Oscar"
+  header_subtitle = ""
+  home_image = "/images/avatar.png"
+  recent_posts = 5
+  mainSections = ["posts"]
+  [params.style]
+    backgroundColor = "#f8f9fa"
+    fontColor = "#212529"
+  [[params.social]]
+    fa_icon = "fab fa-github fa-1x"
+    href = "https://github.com/OscarGalindo"
+  [[params.social]]
+    fa_icon = "fab fa-twitter fa-1x"
+    href = "https://twitter.com/kaseOga"
+
+[markup]
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineAnchors = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "monokai"
+    tabWidth = 4
