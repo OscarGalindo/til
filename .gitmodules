@@ -1,3 +1,4 @@
 [submodule "themes/devise"]
 	path = themes/devise
 	url = https://github.com/austingebauer/devise.git
+    branch = master
