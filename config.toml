@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://til-galindero.vercel.app/"
 languageCode = "en-us"
 title = "Oscar Galindo TILs"
 
